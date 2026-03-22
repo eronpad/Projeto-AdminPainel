@@ -1,2 +1,3 @@
-# Projetos-Faculdade
-Projetos efetuados na faculdade
+# Projetos-Site de Viagens
+Site que fiz para treino e aprendizado.
+
