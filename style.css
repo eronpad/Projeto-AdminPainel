@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    color: yellow;
+    background-color: gray;   
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.header-icons{
+    display: flex;
+    gap: 10px;
+}
+header img{
+    display: inline;
+    width: 30px;
+    height: 30px;
+
+}
+.foto{
+    margin: 0 0 0 40px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+aside{
+    background-color: silver;
+    width: 25vh;
+    min-height: 100vh;
+}
+.name{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 14%;
+    align-items: center;
+}
+aside div{
+    display: block;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+aside div:hover
+{
+    background-color: rgb(23, 40, 194);
+    color: white;
+    cursor: pointer;
+}
+.teste{
+    display: flex;
+}
+main{
+    flex: 1;
+    padding: 20px;
+}
+.titulo{
+    color: cadetblue;
+    font-size: 1.5em;
+}
+.sub{
+    color: gray;
+    font-size: 0.8em;
+}
+.quadrado{
+    display: inline-block;
+    padding: 1px;
+    width: 306px;
+    border-radius: 8px;
+}
+.quadrado-topo{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+.quadrado-baixo{
+   background-color: rgba(89, 87, 87, 0.878);
+   padding: 12px 20px;
+}
+.quadrado-baixo a:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer; 
+}
